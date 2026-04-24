@@ -1,54 +1,412 @@
-<!doctype html>
-<html lang="en" class="no-js">
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <base target="_blank">
-    <meta charset="UTF-8" />
-    <title>Aavash Chhetri</title>
-    <link rel="shortcut icon" type="image/png" href="/assets/logo.png">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/style.css" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous" type="text/css">
-    <!-- remember, jQuery is completely optional -->
-    <!-- <script type='text/javascript' src='js/jquery-1.11.1.min.js'></script> -->
-    <script type="text/javascript" src="js/jquery.particleground.js"></script>
-    <script type="text/javascript" src="js/demo.js"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aavash Chhetri — Research Assistant, NAAMII</title>
+  <meta name="description"
+    content="Aavash Chhetri is a Research Assistant at NAAMII's Multimodal Learning Lab, working on federated learning, multimodal fusion, and privacy-preserving ML for healthcare." />
+  <meta name="keywords"
+    content="Aavash Chhetri, NAAMII, federated learning, multimodal learning, medical image analysis, healthcare AI, computer vision" />
+  <meta name="author" content="Aavash Chhetri" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Aavash Chhetri — Research Assistant, NAAMII" />
+  <meta property="og:description"
+    content="Research Assistant at NAAMII's Multimodal Learning Lab. Federated learning, multimodal fusion, privacy-preserving ML for healthcare." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://aavashchhetri.com.np" />
+
+  <link rel="shortcut icon" type="image/png" href="assets/logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=DM+Mono:wght@300;400&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="css/main.css" />
 </head>
 
 <body>
+  <div class="page">
 
-    <div id="particles">
-        <div id="intro">
-            <h2 style="font-family: 'Syncopate', sans-serif; font-weight: 10;margin-top:100px;font-size:50px;">Aavash Chhetri&nbsp;
-                <a href="deedy.pdf" style="color: white;"><img src="assets/resume.png" height="35" width="35"></a>
-            </h2><br>
-            <a href="https://www.linkedin.com/in/aavash-chhetri/"><i class="fab fa-linkedin" style="font-size: 2em;"></i></a>&nbsp
-            <a href="https://github.com/A-atmos"><i class="fab fa-github" style="font-size: 2em;"></i></a> &nbsp
-            <a href="https://www.facebook.com/luci9696/"><i class="fab fa-facebook" style="font-size: 2em;"></i></a> &nbsp
-            <a href="https://www.instagram.com/aavashchhetri/"><i class="fab fa-instagram" style="font-size: 2em;"></i></a> &nbsp
+    <!-- ═══════ HEADER ═══════ -->
+    <header>
+      <div class="header-grid">
+        <div>
+          <h1 class="name">Aavash Chhetri</h1>
+          <p class="title-line">
+            Research Assistant
+            <span class="sep">/</span>
+            <a href="https://sites.google.com/view/bbinod/team" target="_blank" rel="noopener">Multimodal Learning
+              Lab</a>
+            <span class="sep">/</span>
+            <a href="https://naamii.org/" target="_blank" rel="noopener">NAAMII</a>
+          </p>
+          <div class="quick-links">
+            <a href="mailto:aavashchhetri01@gmail.com">Email</a>
+            <a href="https://scholar.google.com/citations?user=xtUSpHIAAAAJ&hl=en" target="_blank"
+              rel="noopener">Scholar</a>
+            <a href="https://github.com/A-atmos" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://linkedin.com/in/aavash-chhetri/" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="Resume.pdf" target="_blank" rel="noopener">CV</a>
+          </div>
+        </div>
+        <div class="avatar">
+          <img src="pp.jpg" alt="Aavash Chhetri" loading="eager" />
+        </div>
+      </div>
+    </header>
 
-            <div style="margin-top:30px;padding-top:40px;font-size:40px;">
-                <h2 style="color:white;">PROJECTS</h2>
+    <!-- ═══════ NAV ═══════ -->
+    <nav id="main-nav">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#research">Research</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#writing">Writing</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- ═══════ ABOUT ═══════ -->
+    <section id="about" class="reveal">
+      <p class="section-label">About</p>
+      <p>
+        I am a research assistant at the <strong>NepAl Applied Mathematics and Informatics Institute for Research
+          (<a href="https://naamii.org/" target="_blank" rel="noopener">NAAMII</a>)</strong>,
+        working within the <a href="https://sites.google.com/view/bbinod/team" target="_blank" rel="noopener">Multimodal
+          Learning Lab</a> under the supervision of
+        <strong><a href="https://sites.google.com/view/bbinod/home" target="_blank" rel="noopener">Dr. Binod
+            Bhattarai</a></strong>
+        (Assistant Professor, University of Aberdeen; Co-founder, NAAMII; Chief Scientist,
+        <a href="https://fogsphere.com/" target="_blank" rel="noopener">Fogsphere</a>, UK).
+        I hold an undergraduate degree in Computer Engineering from Tribhuvan University, IOE, Pulchowk Campus.
+      </p>
+      <p>
+        My research focuses on federated and multimodal learning for healthcare — developing privacy-preserving
+        frameworks that enable collaborative model training across distributed clinical institutions.
+        I am particularly interested in problems involving missing modalities, data heterogeneity, and
+        robust multimodal fusion in low-resource medical settings. I'm also keen to bring machine learning to the edge.
+      </p>
+      <p>
+        I'm also involved in industry as a <strong>Deep Learning Engineer</strong> at
+        <a href="https://fogsphere.com/" target="_blank" rel="noopener">Fogsphere</a> (UK), where I design and train
+        models for safety-critical environments.
+      </p>
+      <p>
+        Beyond research, I enjoy building things from first principles — from implementing
+        cryptographic algorithms in C and writing a grep clone in Rust, to exploring CTF challenges and
+        blockchain-based systems. I find the algorithmic side of computing deeply rewarding.
+      </p>
+      <div class="affil-block">
+        <strong>NepAl Applied Mathematics and Informatics Institute for Research (NAAMII)</strong><br />
+        Multimodal Learning Lab &mdash; Supervised by Dr. Binod Bhattarai<br />
+        Lalitpur, Kathmandu, Nepal
+      </div>
+      <div class="affil-block" style="margin-top: .8rem;">
+        <strong>Fogsphere</strong> &mdash; Deep Learning Engineer (Part-time)<br />
+        United Kingdom
+      </div>
+    </section>
+
+    <!-- ═══════ NEWS ═══════ -->
+    <section id="news" class="reveal">
+      <p class="section-label">News</p>
+      <ul class="news-list">
+        <li class="news-item">
+          <span class="news-date">2026</span>
+          <span class="news-text">Whitepaper on <a href="https://hainet.org/pdf/PriFed%20Whitepaper.pdf" target="_blank"
+              rel="noopener"><em>PriFed</em></a> released by <a href="https://hainet.org/" target="_blank"
+              rel="noopener">Health AI for All Network (HAINet)</a>.</span>
+        </li>
+        <li class="news-item">
+          <span class="news-date">2026</span>
+          <span class="news-text">Preprint released: <a href="https://arxiv.org/abs/2602.04416" target="_blank"
+              rel="noopener"><em>Med-MMFL: A Multimodal Federated Learning Benchmark in
+                Healthcare</em></a>.</span>
+        </li>
+        <li class="news-item">
+          <span class="news-date">2025</span>
+          <span class="news-text">Joined <a href="https://fogsphere.com/" target="_blank" rel="noopener">Fogsphere</a>
+            as Deep Learning Engineer (Part-time).</span>
+        </li>
+        <li class="news-item">
+          <span class="news-date">2025</span>
+          <span class="news-text">Research Assistant at <a href="https://naamii.org/" target="_blank"
+              rel="noopener">NAAMII</a>,
+            Multimodal Learning Lab.</span>
+        </li>
+        <li class="news-item">
+          <span class="news-date">2025</span>
+          <span class="news-text">Paper accepted at <strong>MIUA 2025</strong> (LNCS, Springer): <em>Multimodal
+              Federated Learning With Missing Modalities through Feature Imputation Network</em>.</span>
+        </li>
+        <li class="news-item">
+          <span class="news-date">2025</span>
+          <span class="news-text">Completed B.E. in Computer Engineering from IOE, Pulchowk Campus, Tribhuvan
+            University.</span>
+        </li>
+        <li class="news-item">
+          <span class="news-date">2024</span>
+          <span class="news-text">Joined <a href="https://naamii.org/" target="_blank" rel="noopener">NAAMII</a> as
+            Research Intern at the Multimodal Learning Lab.</span>
+        </li>
+      </ul>
+    </section>
+
+    <!-- ═══════ RESEARCH ═══════ -->
+    <section id="research" class="reveal">
+      <p class="section-label">Research Interests</p>
+      <div class="topics reveal-children">
+        <span class="tag">Federated Learning</span>
+        <span class="tag">Multimodal Learning</span>
+        <span class="tag">Computer Vision</span>
+        <span class="tag">Medical Image Analysis</span>
+        <!-- <span class="tag">Missing Modality Robustness</span> -->
+        <span class="tag">Privacy-Preserving ML</span>
+        <!-- <span class="tag">Healthcare AI</span> -->
+        <!-- <span class="tag">Data Heterogeneity</span> -->
+      </div>
+      <p>
+        My research centres on building federated learning systems that allow distributed clinical
+        institutions to collaboratively train models without sharing sensitive patient data.
+        I work on multimodal learning problems — particularly handling missing modalities and heterogeneous
+        data distributions — with direct applications to medical image analysis and clinical decision support.
+      </p>
+    </section>
+
+    <!-- ═══════ PUBLICATIONS ═══════ -->
+    <section id="publications" class="reveal">
+      <p class="section-label">Publications</p>
+      <ul class="pub-list">
+
+        <li class="pub">
+          <div class="pub-title">
+            Med-MMFL: A Multimodal Federated Learning Benchmark in Healthcare
+          </div>
+          <div class="pub-authors">
+            <em>Aavash Chhetri</em>, Bibek Niroula, Pratik Shrestha, Yash Raj Shrestha, Lesley A Anderson, Prashnna K
+            Gyawali, Loris Bazzani, Binod Bhattarai
+          </div>
+          <div class="pub-venue">Preprint &mdash; 2026</div>
+          <div class="pub-links">
+            <a href="https://arxiv.org/abs/2602.04416" target="_blank" rel="noopener">arXiv</a>
+          </div>
+        </li>
+
+        <li class="pub">
+          <div class="pub-title">
+            PriFed: Privacy-Preserved Learning in Health AI Through Federated Learning
+          </div>
+          <div class="pub-authors">
+            Binod Bhattarai, Bibek Niroula, <em>Aavash Chhetri</em>, Kiran Raj Pandey, Yash Raj Shrestha, Niyoj Oli
+          </div>
+          <div class="pub-venue">Whitepaper &mdash; Health AI for All Network (HAINet), 2026</div>
+          <div class="pub-links">
+            <a href="https://hainet.org/pdf/PriFed%20Whitepaper.pdf?ref=prifed" target="_blank" rel="noopener">PDF</a>
+          </div>
+        </li>
+
+        <li class="pub">
+          <div class="pub-title">
+            Multimodal Federated Learning With Missing Modalities through Feature Imputation Network
+          </div>
+          <div class="pub-authors">
+            Pranav Poudel, <em>Aavash Chhetri</em>, Prashnna Gyawali, Georgios Leontidis, Binod Bhattarai
+          </div>
+          <div class="pub-venue">Medical Image Understanding and Analysis (MIUA 2025) &mdash; LNCS vol. 15916, pp.
+            289-299</div>
+          <div class="pub-links">
+            <a href="https://arxiv.org/abs/2505.20232" target="_blank" rel="noopener">arXiv</a>
+            <a href="https://link.springer.com/chapter/10.1007/978-3-031-98688-8_20" target="_blank"
+              rel="noopener">Springer</a>
+            <a href="https://github.com/bhattarailab/FedFeatGen" target="_blank" rel="noopener">Code</a>
+          </div>
+        </li>
+
+
+      </ul>
+    </section>
+
+    <!-- ═══════ PROJECTS ═══════ -->
+    <section id="projects" class="reveal">
+      <p class="section-label">Projects</p>
+      <div class="project-grid reveal-children">
+
+        <div class="project-card">
+          <div class="project-card-header">
+            <div class="project-name">
+              <a href="https://github.com/bhattarailab/FedFeatGen" target="_blank" rel="noopener">FedFeatGen</a>
             </div>
-            <br>
-            <div>
-                <ul>
-                    <li><a href="https://www.github.com/A-atmos/First_Game" title="Shooting Game Based on PyGame"><i class="fas fa-link"></i> Spaceship Game.</a></li><br>
-                    <li>
-                        <a href="https://www.github.com/A-atmos/FinancialGUI" title="GUI Application for Personal Expense Management"> <i class="fas fa-link"></i> Personal Expense Manager.</a>
-                    </li><br>
-                    <li><a href="https://tripbeee.netlify.app/" title="Demo - Travel and Get Rewarded."><i class="fas fa-link"></i> TripBee</li><br>
-                    <li><a href="https://writeups.aavashchhetri.com.np/" title="Personal Writeup Collection"><i class="fas fa-link"></i>Write-Ups</li><br>
-                </ul>
-            </div>
+            <span class="project-lang">Python</span>
+          </div>
+          <p class="project-desc">Feature imputation network for multimodal federated learning with missing modalities —
+            official codebase for our MIUA 2025 paper.</p>
+          <div class="project-meta">
+            <a href="https://github.com/bhattarailab/FedFeatGen" target="_blank" rel="noopener">Source</a>
+          </div>
         </div>
 
+        <div class="project-card">
+          <div class="project-card-header">
+            <div class="project-name">
+              <a href="https://github.com/A-atmos/grep.rs" target="_blank" rel="noopener">grep.rs</a>
+            </div>
+            <span class="project-lang">Rust</span>
+          </div>
+          <p class="project-desc">A basic implementation of the Unix grep utility in Rust — pattern matching,
+            file searching, and command-line argument parsing.</p>
+          <div class="project-meta">
+            <a href="https://github.com/A-atmos/grep.rs" target="_blank" rel="noopener">Source</a>
+          </div>
+        </div>
 
+        <div class="project-card">
+          <div class="project-card-header">
+            <div class="project-name">
+              <a href="https://github.com/A-atmos/matadaan" target="_blank" rel="noopener">Matadaan</a>
+            </div>
+            <span class="project-lang">C++</span>
+          </div>
+          <p class="project-desc">Proof-of-concept decentralized voting system built on blockchain fundamentals —
+            block hashing, chain validation, and vote integrity.</p>
+          <div class="project-meta">
+            <a href="https://github.com/A-atmos/matadaan" target="_blank" rel="noopener">Source</a>
+            <span class="project-stars">★ 2</span>
+          </div>
+        </div>
 
-    </div>
+        <div class="project-card">
+          <div class="project-card-header">
+            <div class="project-name">
+              <a href="https://github.com/A-atmos/XenoLingo" target="_blank" rel="noopener">XenoLingo</a>
+            </div>
+            <span class="project-lang">ShaderLab</span>
+          </div>
+          <p class="project-desc">An alien language translation game built in Unity — shader-based visual effects and
+            procedural dialogue generation.</p>
+          <div class="project-meta">
+            <a href="https://github.com/A-atmos/XenoLingo" target="_blank" rel="noopener">Source</a>
+            <span class="project-stars">★ 3</span>
+          </div>
+        </div>
 
+        <div class="project-card">
+          <div class="project-card-header">
+            <div class="project-name">
+              <a href="https://github.com/A-atmos/Vulnerable-Language-Changer" target="_blank" rel="noopener">Vulnerable
+                Language Changer</a>
+            </div>
+            <span class="project-lang">PHP</span>
+          </div>
+          <p class="project-desc">Intentionally vulnerable web app demonstrating security flaws in language
+            switching — built for CTF and education; demoed at InnoVision@NIT-Rourkela.</p>
+          <div class="project-meta">
+            <a href="https://github.com/A-atmos/Vulnerable-Language-Changer" target="_blank" rel="noopener">Source</a>
+          </div>
+        </div>
+
+      </div>
+
+      <p style="margin-top: 1.4rem; font-size: .86rem; color: var(--ink-3);">
+        See more on <a href="https://github.com/A-atmos" target="_blank" rel="noopener"
+          style="border-bottom: 1px solid var(--rule);">GitHub →</a>
+      </p>
+    </section>
+
+    <!-- ═══════ WRITING ═══════ -->
+    <section id="writing" class="reveal">
+      <p class="section-label">Writing &amp; CTF Writeups</p>
+      <p style="color: var(--ink-2); margin-bottom: 1.4rem; max-width: 640px; font-size: .95rem;">
+        I enjoy capture-the-flag competitions and occasionally document my walkthroughs.
+        My writeups cover challenges from platforms like TryHackMe, and various CTFs.
+      </p>
+      <ul class="writing-list">
+        <li class="writing-item">
+          <span class="writing-platform">TryHackMe</span>
+          <span class="writing-title"><a href="https://writeups.aavashchhetri.com.np/TryHackMe/" target="_blank"
+              rel="noopener">Room walkthroughs &amp; notes</a></span>
+        </li>
+        <li class="writing-item">
+          <span class="writing-platform">Gajabaar</span>
+          <span class="writing-title"><a href="https://writeups.aavashchhetri.com.np/Gajabaar.io/" target="_blank"
+              rel="noopener">Gajabaar CTF prep challenges</a></span>
+        </li>
+        <li class="writing-item">
+          <span class="writing-platform">Sudo Override</span>
+          <span class="writing-title"><a href="https://writeups.aavashchhetri.com.np/SudoOverride/" target="_blank"
+              rel="noopener">Sudo Override challenge solutions</a></span>
+        </li>
+      </ul>
+      <p style="margin-top: 1.4rem; font-size: .86rem; color: var(--ink-3);">
+        All writeups at <a href="https://writeups.aavashchhetri.com.np/" target="_blank" rel="noopener"
+          style="border-bottom: 1px solid var(--rule);">writeups.aavashchhetri.com.np →</a>
+      </p>
+    </section>
+
+    <!-- ═══════ EDUCATION ═══════ -->
+    <section id="education" class="reveal">
+      <p class="section-label">Education</p>
+      <div class="edu-item">
+        <div class="edu-degree">Bachelor of Engineering in Computer Engineering</div>
+        <div class="edu-institution">Tribhuvan University, Institute of Engineering, Pulchowk Campus</div>
+        <div class="edu-year">Lalitpur, Nepal &mdash; 2024</div>
+      </div>
+    </section>
+
+    <!-- ═══════ CONTACT ═══════ -->
+    <section id="contact" class="reveal">
+      <p class="section-label">Contact</p>
+      <div class="contact-grid">
+        <span class="contact-key">Personal</span>
+        <span class="contact-val">
+          <a href="mailto:aavashchhetri01@gmail.com">aavashchhetri01@gmail.com</a>
+        </span>
+
+        <span class="contact-key">NAAMII</span>
+        <span class="contact-val">
+          <a href="mailto:aavash.chhetri@naamii.org.np">aavash.chhetri@naamii.org.np</a>
+        </span>
+
+        <span class="contact-key">Scholar</span>
+        <span class="contact-val">
+          <a href="https://scholar.google.com/citations?user=xtUSpHIAAAAJ&hl=en" target="_blank" rel="noopener">Aavash
+            Chhetri</a>
+        </span>
+
+        <span class="contact-key">GitHub</span>
+        <span class="contact-val">
+          <a href="https://github.com/A-atmos" target="_blank" rel="noopener">A-atmos</a>
+        </span>
+
+        <span class="contact-key">LinkedIn</span>
+        <span class="contact-val">
+          <a href="https://linkedin.com/in/aavash-chhetri/" target="_blank" rel="noopener">aavash-chhetri</a>
+        </span>
+
+        <span class="contact-key">CV</span>
+        <span class="contact-val">
+          <a href="Resume.pdf" target="_blank" rel="noopener">Download PDF</a>
+        </span>
+      </div>
+    </section>
+
+    <!-- ═══════ FOOTER ═══════ -->
+    <footer>
+      <span>&copy; 2026 Aavash Chhetri</span>
+      <span>aavashchhetri.com.np</span>
+    </footer>
+
+  </div>
+
+  <!-- Back to top -->
+  <button class="back-to-top" id="back-to-top" aria-label="Back to top" title="Back to top">↑</button>
+
+  <script src="js/main.js"></script>
 </body>
 
 </html>
